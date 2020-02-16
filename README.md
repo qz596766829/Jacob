@@ -28,7 +28,7 @@ public class SwaggerConfiguration {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.bycdao.cloud"))
+                .apis(RequestHandlerSelectors.basePackage("cn.jacob"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -37,8 +37,8 @@ public class SwaggerConfiguration {
         return new ApiInfoBuilder()
                 .title("swagger-bootstrap-ui RESTful APIs")
                 .description("swagger-bootstrap-ui")
-                .termsOfServiceUrl("http://localhost:8999/")
-                .contact("developer@mail.com")
+                .termsOfServiceUrl("http://localhost:8081/")
+                .contact("596766829@qq.com")
                 .version("1.0")
                 .build();
     }
