@@ -164,4 +164,4 @@ spring:
 ```
 5. 测试
 http://{ip}:{port}/doc.html
-![](https://images-1259173443.cos.ap-chengdu.myqcloud.com/bootstrap-swagger-ui-mybatis-plus.png)
+https://images-1259173443.cos.ap-chengdu.myqcloud.com/bootstrap-swagger-ui-mybatis-plus.png
