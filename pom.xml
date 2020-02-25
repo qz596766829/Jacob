@@ -16,6 +16,7 @@
     <modules>
         <module>Jacob-swagger</module>
         <module>Jacob-mybatis-plus</module>
+        <module>jacob-multi-data-source</module>
     </modules>
 
     <dependencies>

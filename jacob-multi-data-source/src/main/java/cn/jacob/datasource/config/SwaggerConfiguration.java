@@ -1,4 +1,4 @@
-package cn.jacob.config;
+package cn.jacob.datasource.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -35,8 +35,8 @@ public class SwaggerConfiguration {
         return new ApiInfoBuilder()
                 .title("swagger-bootstrap-ui RESTful APIs")
                 .description("swagger-bootstrap-ui")
-                .termsOfServiceUrl("http://localhost:8081/")
-                .contact("m15870979735@163.com")
+                .termsOfServiceUrl("http://localhost:8083/")
+                .contact("m15870979735@qq.com")
                 .version("1.0")
                 .build();
     }

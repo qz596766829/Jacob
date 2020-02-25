@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 /**
  * @ClassName SwaggerApplication
  * @Description: TODO
- * @Author wzq
+ * @Author jacob
  * @Date 2020/2/14
  * @Version V1.0
  **/

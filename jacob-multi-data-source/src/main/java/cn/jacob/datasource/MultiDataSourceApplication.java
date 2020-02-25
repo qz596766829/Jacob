@@ -1,8 +1,8 @@
-package cn.jacob;
+package cn.jacob.datasource;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  * @ClassName SwaggerApplication
@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2020/2/14
  * @Version V1.0
  **/
-@SpringBootApplication
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 //@MapperScan(basePackages = {"cn.jacob.mapper"})
-public class MybatisPlusApplication {
+public class MultiDataSourceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MybatisPlusApplication.class, args);
+        SpringApplication.run(MultiDataSourceApplication.class, args);
     }
 
 }

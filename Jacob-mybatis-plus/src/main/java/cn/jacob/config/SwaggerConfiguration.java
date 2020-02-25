@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * @ClassName SwaggerConfiguration
  * @Description: TODO
- * @Author wzq
+ * @Author jacob
  * @Date 2020/2/14
  * @Version V1.0
  **/

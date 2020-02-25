@@ -8,7 +8,7 @@ import lombok.Data;
 /**
  * @ClassName User
  * @Description: TODO
- * @Author wzq
+ * @Author jacob
  * @Date 2020/2/15
  * @Version V1.0
  **/

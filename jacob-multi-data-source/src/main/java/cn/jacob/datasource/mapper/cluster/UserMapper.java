@@ -1,17 +1,12 @@
-package cn.jacob.mapper;
+package cn.jacob.datasource.mapper.cluster;
 
-import cn.jacob.entity.User;
+import cn.jacob.datasource.entity.cluster.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
-/**
- * @ClassName UserMapper
- * @Description: TODO
- * @Author jacob
- * @Date 2020/2/15
- * @Version V1.0
- **/
+import java.util.List;
+
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
-
+    List<User> getList();
 }

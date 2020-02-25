@@ -1,12 +1,11 @@
-package cn.jacob.controller;
+package cn.jacob.datasource.controller;
 
-import cn.jacob.entity.User;
-import cn.jacob.service.UserService;
+import cn.jacob.datasource.entity.cluster.User;
+import cn.jacob.datasource.service.cluster.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,17 +21,17 @@ import java.util.List;
  **/
 @RestController
 @Slf4j
-@Api(value = "用户管理", tags = "用户管理")
+@Api(value = "从数据源", tags = "从数据源")
 @RequestMapping("/user")
 @AllArgsConstructor
 public class UserController {
 
     private UserService userService;
 
-    @GetMapping("/list")
+    @GetMapping("/getList")
     @ApiOperation(value = "用户列表",notes = "用户列表")
-    public List<User> list(){
-        return userService.list();
+    public List<User> getList(){
+        return userService.getList();
     }
 
 }

@@ -10,7 +10,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456
+    password:
     hikari:
       maximum-pool-size: 20
       minimum-idle: 2
